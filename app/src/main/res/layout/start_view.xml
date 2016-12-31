@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayout"
+    android:focusable="true"
+    android:background="#000000"
+    android:visibility="visible"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:background="@drawable/background_login_3"
+        android:alpha="100" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="130dp"
+        android:background="@drawable/sun"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageview0" />
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="26dp"
+        android:id="@+id/imagview1"
+        android:background="@drawable/xfnaked"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" /><![CDATA[
+    >
+
+]]>
+</FrameLayout>

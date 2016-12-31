@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root"
+    tools:context=".MainActivity"
+    android:contextClickable="false">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa0000"
+        android:id="@+id/FrameLayout0"
+        android:layout_below="@+id/FrameLayout1"
+        android:layout_alignStart="@+id/FrameLayout1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background_login"
+            android:alpha="255"
+            android:weightSum="1"
+            android:id="@+id/LinerLayout1">
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background_login_2"
+            android:alpha="255"
+            android:id="@+id/LinerLayout2">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/mikey_more_normal"
+            android:id="@+id/imageButton2"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/left_btn_white"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/menulist"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mikey_more_normal"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton5"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/power_btn_white"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开关"
+            android:id="@+id/开关"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton6"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/noti_scene_common_black"
+            android:layout_marginLeft="120dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="彩色"
+            android:id="@+id/彩色"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="125dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton7"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/noti_scene_getup_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日光"
+            android:id="@+id/日光"
+            android:layout_gravity="bottom|right"
+            android:textColor="#ffffff"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton8"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/std_lifeline_icon_waterpurifier"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流光"
+            android:id="@+id/流光"
+            android:layout_gravity="bottom|right"
+            android:textColor="#ffffff"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageButton"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/xfnaked" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:id="@+id/caihong"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/caihong"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="彩虹"
+            android:id="@+id/textView_caihong"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="75dp"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:id="@+id/ranqing"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ranqing"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="燃情"
+            android:id="@+id/textView_ranqing"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="75dp"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:id="@+id/nuanri"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/nuanri"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暖日"
+            android:id="@+id/textView_nuanri"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="75dp"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:id="@+id/huxi"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/huxi"
+            android:visibility="gone"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼吸"
+            android:id="@+id/textView_huxi"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="225dp"
+            android:layout_marginRight="75dp"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:id="@+id/zidingyi"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/zidingyi"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义"
+            android:id="@+id/textView_zidingyi"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="325dp"
+            android:layout_marginLeft="65dp"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

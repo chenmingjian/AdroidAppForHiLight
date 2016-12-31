@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:longClickable="false"
+    android:background="#6b66ff"
+    android:id="@+id/root">
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/hiden"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/xfnaked"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:text="Configure……"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_login">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/xfnaked"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密    码:"
+                android:id="@+id/wifipasswd"
+                android:textColor="#ffffff"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="60dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"
+                android:background="@drawable/spiner_bg"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="47dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp">
+
+            <Button
+                android:text="确定"
+                android:id="@+id/bt_ture"
+                android:layout_weight="1"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/common_signin_btn_dark_text_default"
+                android:background="@drawable/circular_bead"
+                android:layout_width="100dp"
+                android:layout_height="40dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="取消"
+                android:id="@+id/bt_fault"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/common_signin_btn_dark_text_focused"
+                android:background="@drawable/circular_bead" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WIFI名:"
+                android:id="@+id/wifiname"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="200dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:spinnerMode="dialog"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="205dp"
+                android:layout_marginRight="60dp"
+                android:gravity="center_horizontal"
+                android:elevation="0dp"
+                android:background="@drawable/spiner_bg"
+                android:layout_width="200dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="0.42"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
